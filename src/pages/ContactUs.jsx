@@ -14,7 +14,7 @@ const ContactUs = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   const isMd = useIsMd();
-  const ADiv = motion.create("div");
+  const ADiv = motion.div;
 
   // refs
   const contactBannerRef = useRef(null);

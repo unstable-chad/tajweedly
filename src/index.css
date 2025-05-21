@@ -70,8 +70,8 @@
   }
 
   .icon-w-fluid-nav {
-    width: clamp(2rem, calc(6.5vw - 1rem), 3.8rem);
-    height: clamp(2rem, calc(6.5vw - 1rem), 3.8rem);
+    width: clamp(2rem, calc(6.5vw - 2rem), 4.5rem);
+    height: clamp(2rem, calc(6.5vw - 2rem), 4.5rem);
   }
 
   .icon-w-fluid-page {

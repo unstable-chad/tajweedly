@@ -13,7 +13,7 @@ const Pricing = () => {
   const isMd = useIsMd();
   // state
 
-  const ADiv = motion.create("div");
+  const ADiv = motion.div;
 
   // refs
   const pricePlansBannerRef = useRef(null);
@@ -39,7 +39,6 @@ const Pricing = () => {
 
   const isInViewPaymentCardsDiv = useInView(paymentCardsDivRef, {
     once: true,
-    amount: 0.1,
   });
   // animation variants
   const packagesFeeDiv = {

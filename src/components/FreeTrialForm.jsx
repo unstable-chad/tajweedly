@@ -9,7 +9,7 @@ const FreeTrialForm = ({ onSubmit }) => {
   });
   const [disabled, setDisabled] = useState(false);
 
-  const ADiv = motion.create("div");
+  const ADiv = motion.div;
 
   // refs
   const freeTrialFormRef = useRef(null);

@@ -6,7 +6,7 @@ const AboutUs = () => {
   // states
 
   // others mix
-  const ADiv = motion.create("div");
+  const ADiv = motion.div;
   const isMd = useIsMd();
   const overlayParaDiv1Ref = useRef(null);
   const overlayParaDiv2Ref = useRef(null);
@@ -30,33 +30,32 @@ const AboutUs = () => {
   });
   const visionInView = useInView(visionDivRef, {
     once: true,
-    amount: 0.1,
+    amount: 0.2,
     enable: !isMd,
   });
   const teamInView = useInView(teamDivRef, {
     once: true,
-    amount: 0.1,
+    amount: 0.2,
     enable: !isMd,
   });
   const joinUsInView = useInView(joinUsDivRef, {
     once: true,
-    amount: 0.3,
+    amount: 0.2,
     enable: !isMd,
   });
   const visionSvgInView = useInView(visionSvgRef, {
     once: true,
-    amount: 0.1,
+    amount: 0.2,
     enable: !isMd,
   });
   const teamSvgInView = useInView(teamSvgRef, {
     once: true,
-    amount: 0.1,
+    amount: 0.2,
     enable: !isMd,
   });
   const joinUsSvgInView = useInView(joinUsSvgRef, {
     once: true,
-    amount: 0.1,
-    enable: !isMd,
+    amount: 0.2,
   });
 
   // variants

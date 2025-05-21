@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import BlogCard from "@/components/BlogCard";
 
 const Blogs = () => {
-  const ADiv = motion.create("div");
+  const ADiv = motion.div;
   const isMd = useIsMd();
 
   //   refs

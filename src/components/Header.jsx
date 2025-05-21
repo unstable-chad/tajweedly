@@ -10,7 +10,7 @@ import MobileNavDrawer from "./mobileNavDrawer";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Header = () => {
-  const ADiv = motion.create("div");
+  const ADiv = motion.div;
   const isMd = useIsMd();
   const location = useLocation();
   const isActive = (path) =>

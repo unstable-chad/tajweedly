@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import blogs from "@/data/blogs";
 
 const BlogPage = () => {
-  const ADiv = motion.create("div");
+  const ADiv = motion.div;
   const ALink = motion.create(Link);
 
   const params = useParams();

@@ -41,7 +41,7 @@ const quranCourses = [
 const Home = () => {
   const isMd = useIsMd();
   const is2xl = useIs2xl();
-  const ADiv = motion.create("div");
+  const ADiv = motion.div;
   const coursesRef = useRef(null);
   const bookSessionBannerRef = useRef(null);
 

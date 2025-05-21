@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 const BlogCard = ({ blog }) => {
-  const ADiv = motion.create("div");
+  const ADiv = motion.div;
   return (
     <div>
       <ADiv className="courses-card-div bg-white flex flex-col ">
