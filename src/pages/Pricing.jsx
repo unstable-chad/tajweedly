@@ -29,7 +29,7 @@ const Pricing = () => {
 
   const isInViewCourseBox = useInView(courseBoxRef, {
     once: true,
-    amount: isMd ? 0.6 : 0.3,
+    amount: 0.1,
   });
 
   const isInViewContactBanner = useInView(contactBannerRef, {
@@ -39,7 +39,7 @@ const Pricing = () => {
 
   const isInViewPaymentCardsDiv = useInView(paymentCardsDivRef, {
     once: true,
-    amount: isMd ? 0.6 : 0.3,
+    amount: 0.1,
   });
   // animation variants
   const packagesFeeDiv = {

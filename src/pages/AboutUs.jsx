@@ -30,32 +30,32 @@ const AboutUs = () => {
   });
   const visionInView = useInView(visionDivRef, {
     once: true,
-    amount: 0.5,
+    amount: 0.1,
     enable: !isMd,
   });
   const teamInView = useInView(teamDivRef, {
     once: true,
-    amount: 0.5,
+    amount: 0.1,
     enable: !isMd,
   });
   const joinUsInView = useInView(joinUsDivRef, {
     once: true,
-    amount: 0.7,
+    amount: 0.3,
     enable: !isMd,
   });
   const visionSvgInView = useInView(visionSvgRef, {
     once: true,
-    amount: 0.5,
+    amount: 0.1,
     enable: !isMd,
   });
   const teamSvgInView = useInView(teamSvgRef, {
     once: true,
-    amount: 0.5,
+    amount: 0.1,
     enable: !isMd,
   });
   const joinUsSvgInView = useInView(joinUsSvgRef, {
     once: true,
-    amount: 0.5,
+    amount: 0.1,
     enable: !isMd,
   });
 
